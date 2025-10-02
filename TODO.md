@@ -6,7 +6,9 @@
 - [x] Establish repository-wide agent guidelines.
 
 ## Phase 0: Foundations
-- [ ] Define development environment setup instructions.
+- [x] Define development environment setup instructions.
+  - Documented in [docs/development_environment.md](docs/development_environment.md) covering prerequisites, environment variables, and launch commands.
+  - Backend scaffold includes healthcheck endpoint for verifying environment wiring.
 - [ ] Configure CI/CD pipeline (linting, testing, security scans).
 - [ ] Provision shared MongoDB instances and seed datasets.
 - [ ] Implement authentication scaffold (JWT, roles) in codebase.
@@ -47,3 +49,4 @@
 - Align feature implementation with the [Long-Term Implementation Plan](docs/implementation_plan.md).
 - Update relevant documents and this tracker immediately after each feature milestone progresses.
 - Capture emerging risks, decisions, and follow-ups directly under the affected phase.
+- Backend architecture reference added at [docs/backend_architecture.md](docs/backend_architecture.md); consult before modifying Flask modules or introducing new blueprints.
