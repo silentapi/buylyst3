@@ -38,8 +38,13 @@ BuyLyst.co is a full-stack Python + MongoDB + React application for trading card
 - [Backend Endpoints](docs/backend_endpoints.md)
 - [Frontend Pages](docs/frontend_pages.md)
 - [Database Collections & Models](docs/database_models.md)
+- [Backend Architecture Overview](docs/backend_architecture.md)
+- [Development Environment Setup](docs/development_environment.md)
 - [User Story Walkthrough](docs/user_story_walkthrough.md)
 - [Long-Term Implementation Plan](docs/implementation_plan.md)
+
+## Getting Started
+Refer to [Development Environment Setup](docs/development_environment.md) for Python, MongoDB, and tooling prerequisites. The current backend scaffold lives in `backend/` and exposes a readiness probe at `GET /api/health/`.
 
 ## Data Model Summary
 - **products**: Imported from TCGCSV; includes IDs, taxonomy, metadata, and price metrics.
