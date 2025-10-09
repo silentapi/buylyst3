@@ -50,3 +50,4 @@
 - Update relevant documents and this tracker immediately after each feature milestone progresses.
 - Capture emerging risks, decisions, and follow-ups directly under the affected phase.
 - Backend architecture reference added at [docs/backend_architecture.md](docs/backend_architecture.md); consult before modifying Flask modules or introducing new blueprints.
+- Added `PiltoverArchiveScraper` instrumentation script (`backend/app/piltover_scraper.py`) to investigate deck scraping issues. Next step is to trace dynamic API requests once verbose logs reveal payload structure.
